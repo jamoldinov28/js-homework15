@@ -1,0 +1,26 @@
+body{
+    background: grey;
+}
+
+.hero{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+button{
+    width: 150px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+button:hover{
+    transform: scale(.96);
+}
